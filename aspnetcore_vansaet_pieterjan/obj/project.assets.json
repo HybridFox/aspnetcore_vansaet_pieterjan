@@ -12542,11 +12542,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\felik\\Documents\\GitHub\\aspnetcore_vansaet_pieterjan\\aspnetcore_vansaet_pieterjan\\aspnetcore_vansaet_pieterjan\\aspnetcore_vansaet_pieterjan.csproj",
+      "projectUniqueName": "C:\\Users\\felik\\Documents\\GitHub\\aspnetcore_vansaet_pieterjan\\aspnetcore_vansaet_pieterjan\\aspnetcore_vansaet_pieterjan.csproj",
       "projectName": "aspnetcore_vansaet_pieterjan",
-      "projectPath": "C:\\Users\\felik\\Documents\\GitHub\\aspnetcore_vansaet_pieterjan\\aspnetcore_vansaet_pieterjan\\aspnetcore_vansaet_pieterjan\\aspnetcore_vansaet_pieterjan.csproj",
+      "projectPath": "C:\\Users\\felik\\Documents\\GitHub\\aspnetcore_vansaet_pieterjan\\aspnetcore_vansaet_pieterjan\\aspnetcore_vansaet_pieterjan.csproj",
       "packagesPath": "C:\\Users\\felik\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\felik\\Documents\\GitHub\\aspnetcore_vansaet_pieterjan\\aspnetcore_vansaet_pieterjan\\aspnetcore_vansaet_pieterjan\\obj\\",
+      "outputPath": "C:\\Users\\felik\\Documents\\GitHub\\aspnetcore_vansaet_pieterjan\\aspnetcore_vansaet_pieterjan\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

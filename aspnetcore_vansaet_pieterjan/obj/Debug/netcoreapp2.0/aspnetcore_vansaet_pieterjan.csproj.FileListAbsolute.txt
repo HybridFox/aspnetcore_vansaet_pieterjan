@@ -1,0 +1,11 @@
+C:\Users\felik\Documents\GitHub\aspnetcore_vansaet_pieterjan\aspnetcore_vansaet_pieterjan\bin\Debug\netcoreapp2.0\aspnetcore_vansaet_pieterjan.deps.json
+C:\Users\felik\Documents\GitHub\aspnetcore_vansaet_pieterjan\aspnetcore_vansaet_pieterjan\bin\Debug\netcoreapp2.0\aspnetcore_vansaet_pieterjan.runtimeconfig.json
+C:\Users\felik\Documents\GitHub\aspnetcore_vansaet_pieterjan\aspnetcore_vansaet_pieterjan\bin\Debug\netcoreapp2.0\aspnetcore_vansaet_pieterjan.runtimeconfig.dev.json
+C:\Users\felik\Documents\GitHub\aspnetcore_vansaet_pieterjan\aspnetcore_vansaet_pieterjan\bin\Debug\netcoreapp2.0\aspnetcore_vansaet_pieterjan.dll
+C:\Users\felik\Documents\GitHub\aspnetcore_vansaet_pieterjan\aspnetcore_vansaet_pieterjan\bin\Debug\netcoreapp2.0\aspnetcore_vansaet_pieterjan.pdb
+C:\Users\felik\Documents\GitHub\aspnetcore_vansaet_pieterjan\aspnetcore_vansaet_pieterjan\obj\Debug\netcoreapp2.0\aspnetcore_vansaet_pieterjan.csprojResolveAssemblyReference.cache
+C:\Users\felik\Documents\GitHub\aspnetcore_vansaet_pieterjan\aspnetcore_vansaet_pieterjan\obj\Debug\netcoreapp2.0\aspnetcore_vansaet_pieterjan.csproj.CoreCompileInputs.cache
+C:\Users\felik\Documents\GitHub\aspnetcore_vansaet_pieterjan\aspnetcore_vansaet_pieterjan\obj\Debug\netcoreapp2.0\aspnetcore_vansaet_pieterjan.AssemblyInfoInputs.cache
+C:\Users\felik\Documents\GitHub\aspnetcore_vansaet_pieterjan\aspnetcore_vansaet_pieterjan\obj\Debug\netcoreapp2.0\aspnetcore_vansaet_pieterjan.AssemblyInfo.cs
+C:\Users\felik\Documents\GitHub\aspnetcore_vansaet_pieterjan\aspnetcore_vansaet_pieterjan\obj\Debug\netcoreapp2.0\aspnetcore_vansaet_pieterjan.dll
+C:\Users\felik\Documents\GitHub\aspnetcore_vansaet_pieterjan\aspnetcore_vansaet_pieterjan\obj\Debug\netcoreapp2.0\aspnetcore_vansaet_pieterjan.pdb

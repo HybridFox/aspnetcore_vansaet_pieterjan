@@ -1,0 +1,27 @@
+﻿@model DictionaryModel
+
+<div>
+    <ul>
+        <table class="table">
+            <thead>
+                <tr>
+                    <td>Author</td>
+                    <td>Title</td>
+                    <td>ISBN</td>
+                    <td>CreatedOn</td>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (KeyValuePair<int, BookDetailModel> book in Model.Books)
+                {
+                    <tr>
+                        <td><a href="books/@book.Key">@book.Value.Author</a></td>
+                        <td><a href="books/@book.Key">@book.Value.Title</a></td>
+                        <td><a href="books/@book.Key">@book.Value.ISBN</a></td>
+                        <td><a href="books/@book.Key">@book.Value.CreatedOn.ToString("d")</a></td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </ul>
+</div>
