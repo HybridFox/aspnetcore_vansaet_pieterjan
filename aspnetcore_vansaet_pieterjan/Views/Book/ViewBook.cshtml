@@ -1,7 +1,13 @@
-﻿@model BookDetailModel
+﻿@model BookDetailViewModel
 
-<div>
-    @Model.Author 
-    @Model.ISBN
-    @Model.Title
+@{
+    ViewData["Title"] = "Detail " + Model.Title + ", door " + Model.Author;
+}
+
+<div class="row">
+    <div class="col-md-12">
+        <div>
+            De titel is @Model.Title , de auteur is @Model.Author en de isbn is @Model.ISBN
+        </div>
+    </div>
 </div>
