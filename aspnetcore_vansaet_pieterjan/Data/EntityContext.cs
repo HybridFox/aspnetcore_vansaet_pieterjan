@@ -21,9 +21,11 @@ namespace aspnetcore_vansaet_pieterjan.Data
             modelBuilder.Entity<Author>().HasKey(a => a.Id);
             modelBuilder.Entity<Author>().HasMany(b => b.Books).WithOne(ba => ba.Author);
 
+            modelBuilder.Entity<Genre>().HasKey(b => b.Id);
         }
 
         public DbSet<Author> Authors { get; set; }
         public DbSet<Book> Books { get; set; }
+        public DbSet<Genre> Genre { get; set; }
     }
 }

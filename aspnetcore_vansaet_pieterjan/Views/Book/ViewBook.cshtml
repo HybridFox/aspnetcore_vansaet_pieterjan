@@ -7,7 +7,43 @@
 <div class="row">
     <div class="col-md-12">
         <div>
-            De titel is @Model.Title , de auteur is @Model.Author en de isbn is @Model.ISBN
+            <form asp-controller="Book" asp-action="Update" method="post">
+                <div class="form-group">
+                    <label asp-for="Title">Titel:</label>
+                    <input type="text" asp-for="Title" placeholder="Titel van het boek." />
+                    <span asp-validation-for="Title" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <input type="hidden" asp-for="Id" placeholder="Titel van het boek." />
+                </div>
+                <div class="form-group">
+                    <label asp-for="CreationDate">Aanmaakdatum:</label>
+                    <input type="datetime-local" asp-for="CreationDate" placeholder="CreationDate." />
+                    <span asp-validation-for="CreationDate" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="ISBN">ISBN:</label>
+                    <input type="text" asp-for="ISBN" placeholder="ISBN." />
+                    <span asp-validation-for="ISBN" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Genre">Genre:</label>
+                    <select asp-for="GenreId" asp-items="Model.Genres"></select>
+                    <span asp-validation-for="Genre" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Author1">Author:</label>
+                    <select asp-for="Author1" asp-items="Model.Authors"></select>
+                    <span asp-validation-for="Author1" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Author2">Author:</label>
+                    <select asp-for="Author2" asp-items="Model.Authors"></select>
+                    <span asp-validation-for="Author2" class="text-danger"></span>
+                </div>
+
+                <input type="submit" />
+            </form>
         </div>
     </div>
 </div>

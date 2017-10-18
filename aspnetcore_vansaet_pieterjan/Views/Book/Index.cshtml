@@ -5,15 +5,16 @@
 }
 
 <div class="row">
+    <a asp-controller="Book" asp-action="ViewBook" asp-route-id="0">Create Book</a>
     <div class="col-md-12">
         <table class="table">
             <thead>
-                <tr>
-                    <td>Title</td>
-                    <td>Author</td>
-                    <td>Created At</td>
-                    <td>ISBN</td>
-                </tr>
+            <tr>
+                <td>Title</td>
+                <td>Author</td>
+                <td>Created At</td>
+                <td>ISBN</td>
+            </tr>
             </thead>
             @foreach (var book in Model.Books)
             {
@@ -22,6 +23,12 @@
                     <td>@book.Author</td>
                     <td>@book.CreationDate.ToLongDateString()</td>
                     <td>@book.ISBN</td>
+                    <td>@book.Genre</td>
+                    <td>
+                        <form asp-controller="Book" asp-action="Delete" asp-route-id="@book.Id" method="post">
+                            <input type="submit" value="DEL"/>
+                        </form>
+                    </td>
                 </tr>
             }
         </table>

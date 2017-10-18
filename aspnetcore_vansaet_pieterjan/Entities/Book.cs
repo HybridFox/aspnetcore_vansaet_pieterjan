@@ -11,5 +11,7 @@ namespace aspnetcore_vansaet_pieterjan.Entities
         public string Title { get; set; }
         public virtual List<AuthorBook> Authors { get; set; }
         public string ISBN { get; set; }
+        public DateTime CreationDate { get; set; }
+        public Genre Genre { get; set; }
     }
 }
